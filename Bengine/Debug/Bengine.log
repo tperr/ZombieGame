@@ -1,0 +1,8 @@
+﻿  IOManager.cpp
+C:\Users\tperr\OneDrive\Desktop\c++ progress\Visual Studio\graphicsTutorial\Bengine\IOManager.h(10,37): error C2039: 'string': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\vector(24): message : see declaration of 'std'
+C:\Users\tperr\OneDrive\Desktop\c++ progress\Visual Studio\graphicsTutorial\Bengine\IOManager.h(10,44): error C2061: syntax error: identifier 'string'
+C:\Users\tperr\OneDrive\Desktop\c++ progress\Visual Studio\graphicsTutorial\Bengine\IOManager.cpp(8,2): error C2511: 'bool Bengine::IOManager::readFileToBuffer(std::string,std::vector<unsigned char,std::allocator<unsigned char>> &)': overloaded member function not found in 'Bengine::IOManager'
+C:\Users\tperr\OneDrive\Desktop\c++ progress\Visual Studio\graphicsTutorial\Bengine\IOManager.h(6): message : see declaration of 'Bengine::IOManager'
+C:\Users\tperr\OneDrive\Desktop\c++ progress\Visual Studio\graphicsTutorial\Bengine\IOManager.cpp(22,16): warning C4244: 'initializing': conversion from 'std::streamoff' to 'int', possible loss of data
+C:\Users\tperr\OneDrive\Desktop\c++ progress\Visual Studio\graphicsTutorial\Bengine\IOManager.cpp(28,27): warning C4244: '-=': conversion from 'std::streamoff' to 'int', possible loss of data
