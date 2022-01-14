@@ -1,0 +1,64 @@
+﻿  Zombie.cpp
+C:\Users\tperr\OneDrive\Desktop\c++ progress\Visual Studio\graphicsTutorial\ZombieGame\Agent.h(16,45): error C2039: 'string': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\vector(24): message : see declaration of 'std'
+C:\Users\tperr\OneDrive\Desktop\c++ progress\Visual Studio\graphicsTutorial\ZombieGame\Agent.h(16,51): error C2065: 'string': undeclared identifier
+C:\Users\tperr\OneDrive\Desktop\c++ progress\Visual Studio\graphicsTutorial\ZombieGame\Agent.h(16,33): error C2923: 'std::vector': 'string' is not a valid template type argument for parameter '_Ty'
+C:\Users\tperr\OneDrive\Desktop\c++ progress\Visual Studio\graphicsTutorial\ZombieGame\Agent.h(16,33): error C2976: 'std::vector': too few template arguments
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\vector(416): message : see declaration of 'std::vector'
+C:\Users\tperr\OneDrive\Desktop\c++ progress\Visual Studio\graphicsTutorial\ZombieGame\Agent.h(18,47): error C2039: 'string': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\vector(24): message : see declaration of 'std'
+C:\Users\tperr\OneDrive\Desktop\c++ progress\Visual Studio\graphicsTutorial\ZombieGame\Agent.h(18,53): error C2065: 'string': undeclared identifier
+C:\Users\tperr\OneDrive\Desktop\c++ progress\Visual Studio\graphicsTutorial\ZombieGame\Agent.h(18,35): error C2923: 'std::vector': 'string' is not a valid template type argument for parameter '_Ty'
+C:\Users\tperr\OneDrive\Desktop\c++ progress\Visual Studio\graphicsTutorial\ZombieGame\Agent.h(18,35): error C2976: 'std::vector': too few template arguments
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\vector(416): message : see declaration of 'std::vector'
+C:\Users\tperr\OneDrive\Desktop\c++ progress\Visual Studio\graphicsTutorial\ZombieGame\Agent.h(30,48): error C2039: 'string': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\vector(24): message : see declaration of 'std'
+C:\Users\tperr\OneDrive\Desktop\c++ progress\Visual Studio\graphicsTutorial\ZombieGame\Agent.h(30,54): error C2065: 'string': undeclared identifier
+C:\Users\tperr\OneDrive\Desktop\c++ progress\Visual Studio\graphicsTutorial\ZombieGame\Agent.h(30,36): error C2923: 'std::vector': 'string' is not a valid template type argument for parameter '_Ty'
+C:\Users\tperr\OneDrive\Desktop\c++ progress\Visual Studio\graphicsTutorial\ZombieGame\Agent.h(30,36): error C2976: 'std::vector': too few template arguments
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\vector(416): message : see declaration of 'std::vector'
+C:\Users\tperr\OneDrive\Desktop\c++ progress\Visual Studio\graphicsTutorial\ZombieGame\Zombie.cpp(38,5): error C2664: 'bool Agent::collideWithLevel(const std::vector &)': cannot convert argument 1 from 'const std::vector<std::string,std::allocator<std::string>>' to 'const std::vector &'
+C:\Users\tperr\OneDrive\Desktop\c++ progress\Visual Studio\graphicsTutorial\ZombieGame\Zombie.cpp(38,5): message : Reason: cannot convert from 'const std::vector<std::string,std::allocator<std::string>>' to 'const std::vector'
+C:\Users\tperr\OneDrive\Desktop\c++ progress\Visual Studio\graphicsTutorial\ZombieGame\Zombie.cpp(38,23): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+C:\Users\tperr\OneDrive\Desktop\c++ progress\Visual Studio\graphicsTutorial\ZombieGame\Agent.h(18,7): message : see declaration of 'Agent::collideWithLevel'
+C:\Users\tperr\OneDrive\Desktop\c++ progress\Visual Studio\graphicsTutorial\ZombieGame\Zombie.cpp(46,43): warning C4244: 'argument': conversion from 'T' to 'const unsigned int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\tperr\OneDrive\Desktop\c++ progress\Visual Studio\graphicsTutorial\ZombieGame\Zombie.cpp(46,57): warning C4244: 'argument': conversion from 'T' to 'const unsigned int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\tperr\OneDrive\Desktop\c++ progress\Visual Studio\graphicsTutorial\ZombieGame\Zombie.cpp(46,91): warning C4244: 'argument': conversion from 'T' to 'const unsigned int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\tperr\OneDrive\Desktop\c++ progress\Visual Studio\graphicsTutorial\ZombieGame\Zombie.cpp(46,105): warning C4244: 'argument': conversion from 'T' to 'const unsigned int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\tperr\OneDrive\Desktop\c++ progress\Visual Studio\graphicsTutorial\ZombieGame\Zombie.cpp(59,43): warning C4244: 'argument': conversion from 'T' to 'const unsigned int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\tperr\OneDrive\Desktop\c++ progress\Visual Studio\graphicsTutorial\ZombieGame\Zombie.cpp(59,57): warning C4244: 'argument': conversion from 'T' to 'const unsigned int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\tperr\OneDrive\Desktop\c++ progress\Visual Studio\graphicsTutorial\ZombieGame\Zombie.cpp(59,91): warning C4244: 'argument': conversion from 'T' to 'const unsigned int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\tperr\OneDrive\Desktop\c++ progress\Visual Studio\graphicsTutorial\ZombieGame\Zombie.cpp(59,105): warning C4244: 'argument': conversion from 'T' to 'const unsigned int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\tperr\OneDrive\Desktop\c++ progress\Visual Studio\graphicsTutorial\ZombieGame\Zombie.cpp(90,20): warning C4018: '<': signed/unsigned mismatch
